@@ -67,24 +67,5 @@ int main(void)
 		p_can_message_1->id++;
 		counter++;
 	}
-	//char msg[] = "HelloIgor. ";
-	//char portb_value[9];
-// 	char* out_message = (char*) malloc(30);
-	//CREATE_LOGGER(logger)
-    
-	//Main loop
-    //while (1) 
-    //{
-		//itoa(PORTB, portb_value, 2);
-		//char* out_message = (char*) malloc(30);
-		//strmerge(msg, portb_value, out_message);
-		////can_interface.receiveMessage(&can_message_buffer);
-		//LOG(logger, out_message)
-		///*logger_var.WriteLine(msg);*/
-		//_delay_ms(1000);
-		////invert PB1
-		//PORTB ^= 0b00000010;
-		//free(out_message);
-    //}
 }
 
